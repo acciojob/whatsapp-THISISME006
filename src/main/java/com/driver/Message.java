@@ -13,7 +13,7 @@ public class Message {
     public Message(int id, String content, Date timestamp) {
         this.id = id;
         this.content = content;
-        this.timestamp = new Date(2023,01,28);
+        this.timestamp = new Date();
     }
 
     public int getId() {
